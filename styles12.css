@@ -1,0 +1,208 @@
+/* PAGE TWELVE */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* two colored line */
+  .colors {
+    display: flex;
+    height: 23px;
+    margin: 50px 0;
+    width: 100%;
+  }
+  
+  .colors .first {
+    flex: 7;
+    background-color: #ffd050;
+  }
+  
+  .colors .second {
+    flex: 5;
+    background-color: #592ea9;
+  }
+  
+  /* Content Style */
+  .content {
+    padding: 0 100px;
+    margin: 40px 0;
+  }
+
+  /* Page12 Style */
+.contactus {
+  text-align: center;
+}
+
+.content12{
+  width: 50%;
+  margin: 20px auto;
+}
+
+.content12 form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.content12 form .formgroup {
+  margin: 15px 0;
+  width: 100%;
+ }
+
+.content12 form .formgroup input, .content12 form .formgroup textarea, .content12 form .formgroup button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  outline: none;
+  border-color: 1px grey;
+ }
+
+ .content12 form .formgroup input{
+  border: 1px solid grey;
+ }
+
+ .content12 form .formgroup button{
+  background-color: #FFD050;
+  border: none;
+ }
+
+.content12 form .formgroup textarea{
+  height: 200px;
+ }
+
+.purple {
+  color: white;
+  background-color: #592ea9;
+  padding: 20px;
+}
+
+.line12 {
+  width: 630px;
+  height: 0px;
+  right: 410px;
+  top: 532px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  opacity: 0.1;
+  margin-left: 50px;
+}
+
+.purple h6 {
+  padding-top: 50px;
+  margin-left: 50px;
+}
+
+.mail1 {
+  /* padding-top: 50px; */
+  margin-left: 50px;
+  display: flex;
+}
+
+.mail1 p {
+  margin-left: 8px;
+  padding-top: 5px;
+}
+
+.mail2 {
+  /* padding-top: 50px; */
+  margin-left: 50px;
+  display: flex;
+}
+
+.mail2 p {
+  margin-left: 8px;
+  padding-top: 8px;
+}
+
+  /* Footer style */
+  .footer {
+    background-color: #232536;
+    padding: 40px;
+  }
+  .footer .contact {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.096);
+    width: 80%;
+    padding: 60px 40px;
+    margin: 20px auto;
+  }
+  .footer .contact h5 {
+    width: 70%;
+    height: 48px;
+    color: white;
+  }
+  
+  .info {
+    padding: 10px;
+    width: 80%;
+    margin: 0% auto;
+  }
+  
+  #button {
+    width: 100px;
+    height: 40px;
+    background-color: yellow;
+  }
+  
+  .content {
+    padding: 0 100px;
+    margin: 40px 0;
+  }
+  
+  .footer .info .left h6 {
+    color: white;
+  }
+  
+  #form {
+    color: rgba(128, 128, 128, 0.096);
+    width: 323px;
+    height: 56px;
+    top: 182px;
+    left: 764px;
+  }
+  
+  .info .left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brands i {
+    margin-left: 10px;
+  }
+
+/* Media Query */
+@keyframes heroimage12 {
+  from {
+      right: 510vh;
+  }
+  to {
+      right: 10vh;
+  }
+}
+@keyframes images {
+  from {
+      left: 150vh;
+  }
+  to {
+      left: -500vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand img {
+    width: 106px;
+    height: 80px;
+  }
+  .content12{
+    width: 95%;
+  }
+  .purple {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+}

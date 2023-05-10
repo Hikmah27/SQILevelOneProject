@@ -1,0 +1,214 @@
+/* PAGE NINE */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Nav style */
+  nav ul li button {
+    background-color: #fff;
+    padding: 3px 7px;
+  }
+
+  /* two colored line */
+  .colors {
+    display: flex;
+    height: 23px;
+    margin: 50px 0;
+    width: 100%;
+  }
+  
+  .colors .first {
+    flex: 7;
+    background-color: #ffd050;
+  }
+  
+  .colors .second {
+    flex: 5;
+    background-color: #592ea9;
+  }
+  
+  /* Content Style */
+  .content {
+    padding: 0 100px;
+    margin: 40px 0;
+  }
+
+  /* Page9 Style */
+.heroimage9 {
+  background-image: url("./images/pg9\ bg1.png");
+  height: 88.3vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.heroimage9 h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 300px;
+  justify-content: center;
+  left: 80px;
+  width: 70%;
+}
+
+.marktext .pictext9 {
+  display: flex;
+}
+
+.marktext .pictext9 img {
+  height: 29.92px;
+  width: 47.63px;
+  border-radius: 0px;
+  color: #ffd050;
+}
+
+.marktext p {
+  color: #232536;
+  margin-left: 10px;
+}
+
+.marklist .marklist9 {
+  display: flex;
+}
+
+.marklist .marklist9 img {
+  height: 29.92px;
+  width: 47.63px;
+  top: 3546px;
+  border-radius: 0px;
+  color: #ffd050;
+  margin-left: 300px;
+}
+
+.marklist p {
+  height: 60px;
+  color: #232536;
+  margin-left: 10px;
+}
+
+  /* Footer style */
+  .footer {
+    background-color: #232536;
+    padding: 40px;
+  }
+  .footer .contact {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.096);
+    width: 80%;
+    padding: 60px 40px;
+    margin: 20px auto;
+  }
+  .footer .contact h5 {
+    width: 60%;
+    height: 48px;
+    color: white;
+  }
+  
+  .info {
+    padding: 10px;
+    width: 80%;
+    margin: 0% auto;
+  }
+  
+  #button {
+    width: 100px;
+    height: 40px;
+    background-color: yellow;
+  }
+  
+  .footer .info .left h6 {
+    color: white;
+  }
+  
+  #form {
+    color: rgba(128, 128, 128, 0.096);
+    width: 45%;
+    height: 56px;
+  }
+  
+  .info .left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brands i {
+    margin-left: 10px;
+  }
+  
+  /* Media Query */
+@keyframes heroimage9 {
+  from {
+      right: 510vh;
+  }
+  to {
+      right: 10vh;
+  }
+}
+@keyframes images {
+  from {
+      left: 150vh;
+  }
+  to {
+      left: -500vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand img {
+    width: 106px;
+    height: 80px;
+  }
+
+  .heroimage9 h1 {
+    font-weight: 500; 
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .marklist9, .pictext9{
+    flex-direction: column;
+  }
+  .content{
+      padding: 10px 15px;
+  }
+  
+  .content .colors, .content .secondimage img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+  }
+  .heroimage9, .content .secondimage, .content .colors, .content p{
+      flex-direction: column;
+      padding: 5px;
+  }
+  .content .colors, .content .secondimage {
+      margin-bottom: 10px;
+  }
+ 
+  .footer{
+      padding: 15px;
+  }
+  .footer div{
+      flex-direction: column;
+      padding: 15px;
+   }
+  
+  .footer button {
+      margin-left: 5px;
+  }
+  .footer .info{
+    margin-bottom :120px;
+  }
+  #form {
+    width: 100%;
+  }
+}

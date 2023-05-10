@@ -1,0 +1,143 @@
+/* PAGE THIRTEEN */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Nav style */
+  nav ul li button {
+    background-color: #fff;
+    padding: 3px 7px;
+  }
+  
+  /* two colored line */
+  .colors {
+    display: flex;
+    height: 23px;
+    margin: 50px 0;
+    width: 100%;
+  }
+  
+  .colors .first {
+    flex: 7;
+    background-color: #ffd050;
+  }
+  
+  .colors .second {
+    flex: 5;
+    background-color: #592ea9;
+  }
+  
+  /* Content Style */
+  .content {
+    padding: 0 100px;
+    margin: 40px 0;
+  }
+
+  /* Page13 Style */
+.privacy {
+  background-color: #f4f0f8;
+  height: 256px;
+  width: 100%;
+  left: 0px;
+  top: 80px;
+  border-radius: 0px;
+}
+
+.privacy h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 90px;
+}
+
+/* Footer style */
+  .footer {
+    background-color: #232536;
+    padding: 40px;
+  }
+  .footer .contact {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.096);
+    width: 80%;
+    padding: 60px 40px;
+    margin: 20px auto;
+  }
+  .footer .contact h5 {
+    width: 60%;
+    height: 48px;
+    color: white;
+  }
+  
+  .info {
+    padding: 10px;
+    width: 80%;
+    margin: 0% auto;
+  }
+  
+  #button {
+    width: 100px;
+    height: 40px;
+    background-color: yellow;
+  }
+  
+  .footer .info .left h6 {
+    color: white;
+  }
+  
+  #form {
+    color: rgba(128, 128, 128, 0.096);
+    width: 45%;
+    height: 56px;
+}
+  
+  .info .left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brands i {
+    margin-left: 10px;
+  }
+
+@media screen and (max-width: 768px) {
+  .navbar-brand img {
+    width: 106px;
+    height: 80px;
+  }
+
+  .privacy h1 {
+    font-weight: 500; 
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+  }
+  .content{
+      padding: 10px 15px;
+  }
+ 
+ .content p, .content h2 {
+      flex-direction: column;
+      padding: 5px;
+  }
+ 
+  .footer{
+      padding: 15px;
+  }
+  .footer div{
+      flex-direction: column;
+      padding: 15px;
+   }
+  
+  .footer button {
+      margin-left: 5px;
+  }
+  .footer .info{
+    margin-bottom :120px;
+  }
+  #form {
+    width: 100%;
+  }
+}

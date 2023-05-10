@@ -1,0 +1,175 @@
+/* PAGE FOUR */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /* Nav style */
+  nav ul li button {
+    background-color: #fff;
+    padding: 3px 7px;
+  }
+  
+  /* two colored line */
+  .colors {
+    display: flex;
+    height: 23px;
+    margin: 50px 0;
+    width: 100%;
+  }
+  
+  .colors .first {
+    flex: 7;
+    background-color: #ffd050;
+  }
+  
+  .colors .second {
+    flex: 5;
+    background-color: #592ea9;
+  }
+  
+  /* Content Style */
+  .content {
+    padding: 0 100px;
+    margin: 40px 0;
+  }
+  
+  /* Page4 Body Style */
+.heroimage4 {
+  background-image: url("./images/Pg4\ bg\ 1.png");
+  height: 88.3vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.heroimage4 h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  color: #232536;
+  position: absolute;
+  top: 300px;
+  justify-content: center;
+  left: 80px;
+  width: 70%;
+}
+
+  /* Footer style */
+  .footer {
+    background-color: #232536;
+    padding: 40px;
+  }
+  .footer .contact {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.096);
+    width: 80%;
+    padding: 60px 40px;
+    margin: 20px auto;
+  }
+  .footer .contact h5 {
+    width: 60%;
+    height: 48px;
+    color: white;
+  }
+  
+  .info {
+    padding: 10px;
+    width: 80%;
+    margin: 0% auto;
+  }
+  
+  #button {
+    width: 100px;
+    height: 40px;
+    background-color: yellow;
+  }
+   
+  .footer .info .left h6 {
+    color: white;
+  }
+  
+  #form {
+    color: rgba(128, 128, 128, 0.096);
+    width: 45%;
+    height: 56px;
+  }
+  
+  .info .left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brands i {
+    margin-left: 10px;
+  }
+
+/* Media Query */
+@keyframes heroimage4 {
+  from {
+      right: 510vh;
+  }
+  to {
+      right: 10vh;
+  }
+}
+@keyframes images {
+  from {
+      left: 150vh;
+  }
+  to {
+      left: -500vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand img {
+    width: 106px;
+    height: 80px;
+  }
+  .heroimage4 h1 {
+    font-weight: 500; 
+    font-size: 35px;
+    width: 70%;
+    text-align: center;
+  }
+  .content{
+      padding: 10px 15px;
+  }
+  
+  .content .colors, .content .secondimage img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+  }
+  .heroimage4, .content .secondimage, .content .colors, .content p{
+      flex-direction: column;
+      padding: 5px;
+  }
+  .content .colors, .content .secondimage {
+      margin-bottom: 10px;
+  }
+ 
+  .footer{
+      padding: 15px;
+  }
+  .footer div{
+      flex-direction: column;
+      padding: 15px;
+   }
+  
+  .footer button {
+      margin-left: 5px;
+  }
+  .footer .info{
+    margin-bottom :120px;
+  }
+  #form {
+    width: 100%;
+  }
+}
