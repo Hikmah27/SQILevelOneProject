@@ -39,7 +39,7 @@ nav ul li button {
   .heroimage {
     background-image: url("./images/first\ Bg.png");
     height: 88.3vh;
-    width: 100%;
+    width: 50%;
     padding-top: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -110,25 +110,8 @@ nav ul li button {
   .brands i {
     margin-left: 10px;
   }
-
-  /* Media Query */
-@keyframes heroimage {
-    from {
-        right: 510vh;
-    }
-    to {
-        right: 10vh;
-    }
-  }
-  @keyframes fourimages {
-    from {
-        left: 150vh;
-    }
-    to {
-        left: -500vh;
-    }
-  }
   
+  /* Media Query */
   @media screen and (max-width: 768px) {
     .navbar-brand img {
       width: 106px;

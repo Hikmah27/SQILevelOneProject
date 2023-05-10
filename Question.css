@@ -1,11 +1,11 @@
-/* PAGE SIX */
+/* PAGE ELEVEN */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
   
-   /* Nav style */
+  /* Nav style */
   nav ul li button {
     background-color: #fff;
     padding: 3px 7px;
@@ -28,16 +28,16 @@
     flex: 5;
     background-color: #592ea9;
   }
-
+  
   /* Content Style */
   .content {
     padding: 0 100px;
     margin: 40px 0;
   }
-  
-  /* Page6 Body Style */
-.heroimage6 {
-  background-image: url("./images/pg6\ bg1.png");
+
+   /* Page11 Style */
+.heroimage11 {
+  background-image: url("./images/pg11\ bg.png");
   height: 88.3vh;
   width: 100%;
   background-position: center;
@@ -46,11 +46,11 @@
   position: relative;
 }
 
-.heroimage6 h1 {
+.heroimage11 h1 {
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
-  color: white;
+  font-size: 58px;
+  color: #ffffff;
   position: absolute;
   top: 300px;
   justify-content: center;
@@ -58,31 +58,12 @@
   width: 60%;
 }
 
-.pg6text h3 {
-  height: 40px;
-  width: 444px;
-  margin-left: 150px;
+.content content11 {
+  width: 839px;
+  height: Hug (160px);
 }
 
-.pg6text2 h3 {
-  height: 40px;
-  width: 444px;
-  margin-left: 150px;
-}
-
-.pg6text3 h3 {
-  height: 40px;
-  width: 444px;
-  margin-left: 150px;
-}
-
-.pg6text4 h3 {
-  height: 40px;
-  width: 444px;
-  margin-left: 150px;
-}
-
-/* Footer style */
+  /* Footer style */
   .footer {
     background-color: #232536;
     padding: 40px;
@@ -131,37 +112,21 @@
   .brands i {
     margin-left: 10px;
   }
-  
-   /* Media Query */
-@keyframes heroimage6 {
-  from {
-      right: 510vh;
-  }
-  to {
-      right: 10vh;
-  }
-}
-@keyframes images {
-  from {
-      left: 150vh;
-  }
-  to {
-      left: -500vh;
-  }
-}
 
+/* Media Query */
 @media screen and (max-width: 768px) {
   .navbar-brand img {
     width: 106px;
     height: 80px;
   }
 
-  .heroimage6 h1 {
+  .heroimage11 h1 {
     font-weight: 500; 
     font-size: 35px;
     width: 70%;
+    text-align: center;
   }
-  .content {
+  .content{
       padding: 10px 15px;
   }
   
@@ -171,7 +136,8 @@
       object-fit: contain;
       object-position: center;
   }
-  .heroimage4, .content .colors, .content p{
+  
+  .content .content11 p, .content .content11{
       flex-direction: column;
       padding: 5px;
   }
@@ -179,19 +145,6 @@
       margin-bottom: 10px;
   }
  
-  .content .pic1 img, .content .pic2 img, .content .pic3 img, .content .pic4 img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    object-position: center;
-    margin-bottom: 10px;
-  }
-
-  .pg6text h3, .pg6text2 h3, .pg6text3 h3, .pg6text4 h3 {
-    text-align: center;
-    margin-left: 0;
-    width: unset;
-  }
   .footer{
       padding: 15px;
   }

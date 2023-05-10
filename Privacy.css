@@ -1,4 +1,4 @@
-/* PAGE ELEVEN */
+/* PAGE THIRTEEN */
 * {
     padding: 0;
     margin: 0;
@@ -35,35 +35,24 @@
     margin: 40px 0;
   }
 
-   /* Page11 Style */
-.heroimage11 {
-  background-image: url("./images/pg11\ bg.png");
-  height: 88.3vh;
+  /* Page13 Style */
+.privacy {
+  background-color: #f4f0f8;
+  height: 256px;
   width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  left: 0px;
+  top: 80px;
+  border-radius: 0px;
 }
 
-.heroimage11 h1 {
-  font-style: normal;
+.privacy h1 {
+  text-align: center;
+  font-size: 48px;
   font-weight: 700;
-  font-size: 58px;
-  color: #ffffff;
-  position: absolute;
-  top: 300px;
-  justify-content: center;
-  left: 80px;
-  width: 60%;
+  padding-top: 90px;
 }
 
-.content content11 {
-  width: 839px;
-  height: Hug (160px);
-}
-
-  /* Footer style */
+/* Footer style */
   .footer {
     background-color: #232536;
     padding: 40px;
@@ -101,7 +90,7 @@
     color: rgba(128, 128, 128, 0.096);
     width: 45%;
     height: 56px;
-  }
+}
   
   .info .left {
     display: flex;
@@ -114,52 +103,25 @@
   }
 
 /* Media Query */
-@keyframes heroimage11 {
-  from {
-      right: 510vh;
-  }
-  to {
-      right: 10vh;
-  }
-}
-@keyframes images {
-  from {
-      left: 150vh;
-  }
-  to {
-      left: -500vh;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .navbar-brand img {
     width: 106px;
     height: 80px;
   }
 
-  .heroimage11 h1 {
+  .privacy h1 {
     font-weight: 500; 
     font-size: 35px;
-    width: 70%;
+    width: 100%;
     text-align: center;
   }
   .content{
       padding: 10px 15px;
   }
-  
-  .content .colors {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      object-position: center;
-  }
-  
-  .content .content11 p, .content .content11{
+ 
+ .content p, .content h2 {
       flex-direction: column;
       padding: 5px;
-  }
-  .content .colors {
-      margin-bottom: 10px;
   }
  
   .footer{

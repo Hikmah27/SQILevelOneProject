@@ -1,11 +1,11 @@
-/* PAGE NINE */
+/* PAGE TWO */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
   
-  /* Nav style */
+   /* Nav style */
   nav ul li button {
     background-color: #fff;
     padding: 3px 7px;
@@ -28,16 +28,16 @@
     flex: 5;
     background-color: #592ea9;
   }
-  
+
   /* Content Style */
   .content {
     padding: 0 100px;
     margin: 40px 0;
   }
-
-  /* Page9 Style */
-.heroimage9 {
-  background-image: url("./images/pg9\ bg1.png");
+  
+    /* Page2 Body Style */
+.heroimage2 {
+  background-image: url("./images/page\ 2\ bg\ 1.png");
   height: 88.3vh;
   width: 100%;
   background-position: center;
@@ -46,11 +46,11 @@
   position: relative;
 }
 
-.heroimage9 h1 {
+.heroimage2 h1 {
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
-  color: white;
+  font-size: 64px;
+  color: #232536;
   position: absolute;
   top: 300px;
   justify-content: center;
@@ -58,39 +58,8 @@
   width: 70%;
 }
 
-.marktext .pictext9 {
+.twoimages {
   display: flex;
-}
-
-.marktext .pictext9 img {
-  height: 29.92px;
-  width: 47.63px;
-  border-radius: 0px;
-  color: #ffd050;
-}
-
-.marktext p {
-  color: #232536;
-  margin-left: 10px;
-}
-
-.marklist .marklist9 {
-  display: flex;
-}
-
-.marklist .marklist9 img {
-  height: 29.92px;
-  width: 47.63px;
-  top: 3546px;
-  border-radius: 0px;
-  color: #ffd050;
-  margin-left: 300px;
-}
-
-.marklist p {
-  height: 60px;
-  color: #232536;
-  margin-left: 10px;
 }
 
   /* Footer style */
@@ -143,54 +112,34 @@
     margin-left: 10px;
   }
   
-  /* Media Query */
-@keyframes heroimage9 {
-  from {
-      right: 510vh;
-  }
-  to {
-      right: 10vh;
-  }
-}
-@keyframes images {
-  from {
-      left: 150vh;
-  }
-  to {
-      left: -500vh;
-  }
-}
-
+/* Media Query */
 @media screen and (max-width: 768px) {
   .navbar-brand img {
     width: 106px;
     height: 80px;
   }
 
-  .heroimage9 h1 {
-    font-weight: 500; 
+  .heroimage2 h1 {
+    font-weight: 500;
     font-size: 35px;
-    text-align: center;
-  }
+    width: 70%;
 
-  .marklist9, .pictext9{
-    flex-direction: column;
   }
   .content{
       padding: 10px 15px;
   }
   
-  .content .colors, .content .secondimage img {
+  .content .colors, .content .images img, .content .twoimages img {
       width: 100%;
       height: 100%;
       object-fit: contain;
       object-position: center;
   }
-  .heroimage9, .content .secondimage, .content .colors, .content p{
+  .heroimage2, .content .twoimages, .content .colors, .content .images, .content p{
       flex-direction: column;
       padding: 5px;
   }
-  .content .colors, .content .secondimage {
+  .content .colors, .content .twoimages, .content .images{
       margin-bottom: 10px;
   }
  

@@ -1,4 +1,4 @@
-/* PAGE THIRTEEN */
+/* PAGE FIVE */
 * {
     padding: 0;
     margin: 0;
@@ -10,7 +10,7 @@
     background-color: #fff;
     padding: 3px 7px;
   }
-  
+
   /* two colored line */
   .colors {
     display: flex;
@@ -28,31 +28,49 @@
     flex: 5;
     background-color: #592ea9;
   }
-  
+
   /* Content Style */
   .content {
     padding: 0 100px;
     margin: 40px 0;
   }
+  
+   /* Page5 Body Style */
+   .heroimage5 {
+    background-image: url("./images/pg5\ bg1.png");
+    height: 88.3vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .heroimage5 h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 300px;
+    justify-content: center;
+    left: 80px;
+    width: 70%;
+  }
+  
+  .pictext1, .pictext2, .pictext3, .pictext4, .pictext5, .pictext6 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .pictext1 h3, .pictext2 h3, .pictext3 h3, .pictext4 h3, .pictext5 h3, .pictext6 h3{
+    color: #232536;
+    height: 40px;
+    margin-left: 15px;
+  }
 
-  /* Page13 Style */
-.privacy {
-  background-color: #f4f0f8;
-  height: 256px;
-  width: 100%;
-  left: 0px;
-  top: 80px;
-  border-radius: 0px;
-}
-
-.privacy h1 {
-  text-align: center;
-  font-size: 48px;
-  font-weight: 700;
-  padding-top: 90px;
-}
-
-/* Footer style */
+  /* Footer style */
   .footer {
     background-color: #232536;
     padding: 40px;
@@ -90,7 +108,7 @@
     color: rgba(128, 128, 128, 0.096);
     width: 45%;
     height: 56px;
-}
+  }
   
   .info .left {
     display: flex;
@@ -102,25 +120,44 @@
     margin-left: 10px;
   }
 
+ /* Media Query */
 @media screen and (max-width: 768px) {
   .navbar-brand img {
     width: 106px;
     height: 80px;
   }
 
-  .privacy h1 {
+  .heroimage5 h2 {
     font-weight: 500; 
     font-size: 35px;
-    width: 100%;
-    text-align: center;
+    padding-top: 30px;
   }
   .content{
       padding: 10px 15px;
   }
- 
- .content p, .content h2 {
+  
+  .content .colors, .content {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+  }
+  .heroimage5, .content .colors, .content p {
       flex-direction: column;
       padding: 5px;
+  }
+
+  .content .pictext1, .content .pictext2, .content .pictext3, .content .pictext4, .content .pictext5, .content .pictext6 {
+    flex-direction: column;
+  }
+  
+  .pictext1 h3, .pictext2 h3, .pictext3 h3, .pictext4 h3, .pictext5 h3, .pictext6 h3{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .content .colors {
+      margin-bottom: 10px;
   }
  
   .footer{

@@ -173,23 +173,6 @@
   }
 
 /* Media Query */
-@keyframes heroimage12 {
-  from {
-      right: 510vh;
-  }
-  to {
-      right: 10vh;
-  }
-}
-@keyframes images {
-  from {
-      left: 150vh;
-  }
-  to {
-      left: -500vh;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .navbar-brand img {
     width: 106px;

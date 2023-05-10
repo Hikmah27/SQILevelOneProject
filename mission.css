@@ -1,4 +1,4 @@
-/* PAGE SEVEN */
+/* PAGE TEN */
 * {
   padding: 0;
   margin: 0;
@@ -35,9 +35,9 @@ nav ul li button {
   margin: 40px 0;
 }
 
-/* Page7 Body Style */
-.heroimage7 {
-  background-image: url("./images/pg7\ bg1.png");
+/* Page10 Style */
+.heroimage10 {
+  background-image: url("./images/pg10\ bg.png");
   height: 88.3vh;
   width: 100%;
   background-position: center;
@@ -46,11 +46,11 @@ nav ul li button {
   position: relative;
 }
 
-.heroimage7 h1 {
+.heroimage10 h1 {
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
-  color: white;
+  font-size: 58px;
+  color: #232536;
   position: absolute;
   top: 300px;
   justify-content: center;
@@ -58,24 +58,63 @@ nav ul li button {
   width: 70%;
 }
 
-.pictext7 {
-  display: flex;
-}
-.pictext7 p {
-  flex: 7;
-}
-.pictext7 div{
-  flex: 5;
+.cardd {
+  width: 829px;
+  border-radius: 0px;
+  font-size: 28px;
+  margin: 50px auto;
 }
 
-.content p:first-child {
-  margin-bottom: 40px;
+.card-body {
+  background-color: #f4f0f8;
+  padding: 50px;
+}
+
+.cardd .card-body h5 h3 {
+  color: #232536;
+}
+
+.list10 {
+  margin-left: 180px;
+}
+
+.colors10a,
+.colors10b {
+  display: flex;
+  height: 23px;
   width: 100%;
 }
-.firstimage{
-  margin-bottom: 50px;
-  width: 100%;
+
+.colors10a .first {
+  flex: 2;
+  background-color: transparent;
 }
+
+.colors10a .second {
+  flex: 7;
+  background-color: #009add;
+}
+
+.colors10a .third {
+  flex: 3;
+  background-color: #232536;
+}
+
+.colors10b .first {
+  flex: 2;
+  background-color: transparent;
+}
+
+.colors10b .second {
+  flex: 7;
+  background-color: #009add;
+}
+
+.colors10b .third {
+  flex: 3;
+  background-color: #ffd050;
+}
+
 /* Footer style */
 .footer {
   background-color: #232536;
@@ -127,57 +166,46 @@ nav ul li button {
 }
 
 /* Media Query */
-@keyframes heroimage7 {
-  from {
-    right: 510vh;
-  }
-  to {
-    right: 10vh;
-  }
-}
-@keyframes images {
-  from {
-    left: 150vh;
-  }
-  to {
-    left: -500vh;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .navbar-brand img {
     width: 106px;
     height: 80px;
   }
-  .heroimage7 h1 {
+  .heroimage10 h1 {
     font-weight: 500;
     font-size: 35px;
+    width: 70%;
+    text-align: center;
   }
   .content {
     padding: 10px 15px;
   }
 
   .content .colors,
-  .content .firstimage img {
+  .cardd,
+  .cardd .content .colors10a,
+  .cardd .content .colors10b {
     width: 100%;
     height: 100%;
     object-fit: contain;
     object-position: center;
   }
-
-  .pictext7 {
-    flex-direction: column;
-  }
-  .heroimage7,
-  .content .firstimage img,
-  .content .colors,
+  .heroimage10,
+  .cardd,
+  .cardd .content .colors10a,
+  .cardd .content .colors10b,
   .content p {
     flex-direction: column;
     padding: 5px;
   }
   .content .colors,
-  .content .firstimage {
+  .cardd,
+  .cardd .content .colors10a,
+  .cardd .content .colors10b {
     margin-bottom: 10px;
+  }
+  .list10 {
+    margin-left: 10px;
   }
 
   .footer {
