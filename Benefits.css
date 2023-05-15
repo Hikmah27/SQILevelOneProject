@@ -35,24 +35,14 @@
     margin: 40px 0;
   }
   
-   /* Page5 Body Style */
-   .heroimage5 {
-    background-image: url("./images/pg5\ bg1.png");
-    height: 88.3vh;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  
+   /* Page5 Body Style */  
   .heroimage5 h2 {
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
     color: white;
     position: absolute;
-    top: 300px;
+    top: 400px;
     justify-content: center;
     left: 80px;
     width: 70%;
@@ -129,8 +119,9 @@
 
   .heroimage5 h2 {
     font-weight: 500; 
-    font-size: 35px;
+    font-size: 6vw;
     padding-top: 30px;
+    top: 18%;
   }
   .content{
       padding: 10px 15px;

@@ -36,23 +36,13 @@
   }
 
   /* Page9 Style */
-.heroimage9 {
-  background-image: url("./images/pg9\ bg1.png");
-  height: 88.3vh;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 .heroimage9 h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
   color: white;
   position: absolute;
-  top: 300px;
+  top: 400px;
   justify-content: center;
   left: 80px;
   width: 70%;
@@ -152,8 +142,9 @@
 
   .heroimage9 h1 {
     font-weight: 500; 
-    font-size: 35px;
+    font-size: 6vw;
     text-align: center;
+    top: 25%;
   }
 
   .marklist9, .pictext9{

@@ -36,26 +36,16 @@
   }
   
   /* Page6 Body Style */
-.heroimage6 {
-  background-image: url("./images/pg6\ bg1.png");
-  height: 88.3vh;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 .heroimage6 h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
   color: white;
   position: absolute;
-  top: 300px;
   justify-content: center;
   left: 80px;
   width: 60%;
+  top: 50%;
 }
 
 .pg6text h3 {
@@ -141,8 +131,10 @@
 
   .heroimage6 h1 {
     font-weight: 500; 
-    font-size: 35px;
+    font-size: 6vw;
     width: 70%;
+    top: 20%;
+    left: 80px;
   }
   .content {
       padding: 10px 15px;

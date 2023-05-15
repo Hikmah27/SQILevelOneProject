@@ -36,23 +36,13 @@
   }
 
    /* Page11 Style */
-.heroimage11 {
-  background-image: url("./images/pg11\ bg.png");
-  height: 88.3vh;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 .heroimage11 h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 58px;
   color: #ffffff;
   position: absolute;
-  top: 300px;
+  top: 400px;
   justify-content: center;
   left: 80px;
   width: 60%;
@@ -122,8 +112,9 @@
 
   .heroimage11 h1 {
     font-weight: 500; 
-    font-size: 35px;
+    font-size: 6vw;
     width: 70%;
+    top: 25%;
     text-align: center;
   }
   .content{

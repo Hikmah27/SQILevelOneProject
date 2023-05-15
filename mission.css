@@ -36,23 +36,13 @@ nav ul li button {
 }
 
 /* Page10 Style */
-.heroimage10 {
-  background-image: url("./images/pg10\ bg.png");
-  height: 88.3vh;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 .heroimage10 h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 58px;
   color: #232536;
   position: absolute;
-  top: 300px;
+  top: 400px;
   justify-content: center;
   left: 80px;
   width: 70%;
@@ -173,9 +163,9 @@ nav ul li button {
   }
   .heroimage10 h1 {
     font-weight: 500;
-    font-size: 35px;
+    font-size: 6vw;
     width: 70%;
-    text-align: center;
+    top: 25%;
   }
   .content {
     padding: 10px 15px;

@@ -36,26 +36,16 @@
   }
   
   /* Page4 Body Style */
-.heroimage4 {
-  background-image: url("./images/Pg4\ bg\ 1.png");
-  height: 88.3vh;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 .heroimage4 h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
   color: #232536;
   position: absolute;
-  top: 300px;
   justify-content: center;
   left: 80px;
   width: 70%;
+  top: 60%;
 }
 
   /* Footer style */
@@ -116,9 +106,9 @@
   }
   .heroimage4 h1 {
     font-weight: 500; 
-    font-size: 35px;
+    font-size: 6vw;
     width: 70%;
-    text-align: center;
+    top: 20%;
   }
   .content{
       padding: 10px 15px;

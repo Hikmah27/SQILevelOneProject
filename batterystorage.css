@@ -36,23 +36,13 @@ nav ul li button {
 }
 
 /* Page7 Body Style */
-.heroimage7 {
-  background-image: url("./images/pg7\ bg1.png");
-  height: 88.3vh;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 .heroimage7 h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
   color: white;
   position: absolute;
-  top: 300px;
+  top: 400px;
   justify-content: center;
   left: 80px;
   width: 70%;
@@ -62,7 +52,7 @@ nav ul li button {
   display: flex;
 }
 .pictext7 p {
-  flex: 7;
+  flex: 6;
 }
 .pictext7 div{
   flex: 5;
@@ -134,7 +124,8 @@ nav ul li button {
   }
   .heroimage7 h1 {
     font-weight: 500;
-    font-size: 35px;
+    font-size: 6vw;
+    top: 27%;
   }
   .content {
     padding: 10px 15px;
@@ -147,9 +138,15 @@ nav ul li button {
     object-fit: contain;
     object-position: center;
   }
-
+.content .firstimage{
+  width: 100%;
+  height: 100%;
+}
   .pictext7 {
     flex-direction: column;
+  }
+  .pictext7 img{
+    width: 100%;
   }
   .heroimage7,
   .content .firstimage img,

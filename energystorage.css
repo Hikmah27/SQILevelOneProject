@@ -36,23 +36,13 @@ nav ul li button {
 }
 
 /* Page8 Style */
-.heroimage8 {
-  background-image: url("./images/pg8\ bg1.png");
-  height: 88.3vh;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 .heroimage8 h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
   color: white;
   position: absolute;
-  top: 300px;
+  top: 400px;
   justify-content: center;
   left: 80px;
   width: 70%;
@@ -116,8 +106,9 @@ nav ul li button {
   }
   .heroimage8 h1 {
     font-weight: 500; 
-    font-size: 35px;
+    font-size: 6vw;
     width: 70%;
+    top: 20%;
     text-align: center;
   }
   .content{

@@ -36,26 +36,16 @@ nav ul li button {
 }
 
 /* Page3 Body Style */
-.heroimage3 {
-  background-image: url("./images/pg3\ bg1.png");
-  height: 88.3vh;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 .heroimage3 h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
   color: #232536;
   position: absolute;
-  top: 300px;
   justify-content: center;
   left: 80px;
   width: 70%;
+  top: 50%;
 }
 
 .imagetext {
@@ -134,6 +124,16 @@ nav ul li button {
     height: 80px;
   }
   
+  .heroimage3 h1{
+    font-weight: 500;
+    font-size: 4vw;
+    width: 70%;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 70%;
+    top: 20%;
+  }
   .imagetext {
     flex-direction: column;
   }
