@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-/* Nav style */
+/* Nav style */ 
 nav ul li button {
   background-color: #fff;
   padding: 3px 7px;
@@ -36,6 +36,10 @@ nav ul li button {
 }
 
 /* Page3 Body Style */
+.heroimage3{
+  position: relative;
+}
+
 .heroimage3 h1 {
   font-style: normal;
   font-weight: 700;
@@ -132,7 +136,7 @@ nav ul li button {
     bottom: 5%;
     left: 5%;
     width: 70%;
-    top: 20%;
+    top: 35%;
   }
   .imagetext {
     flex-direction: column;

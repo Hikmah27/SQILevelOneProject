@@ -36,6 +36,9 @@ nav ul li button {
 }
 
 /* Page7 Body Style */
+.heroimage7{
+  position: relative;
+}
 .heroimage7 h1 {
   font-style: normal;
   font-weight: 700;
@@ -125,7 +128,7 @@ nav ul li button {
   .heroimage7 h1 {
     font-weight: 500;
     font-size: 6vw;
-    top: 27%;
+    top: 35%;
   }
   .content {
     padding: 10px 15px;

@@ -36,6 +36,10 @@ nav ul li button {
   }
   
   /* Page1 Body style */
+  .heroimage{
+    position: relative;
+  }
+
   .heroimage h2 {
     font-style: normal;
     font-weight: 700;
@@ -45,13 +49,17 @@ nav ul li button {
     bottom: 5%;
     left: 5%;
     width: 70%;
-    top: 55%;
+    top: 45%;
   }
   
   .fourimages {
     display: flex;
   }
   
+  .content p{
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
   /* Footer style */
   .footer {
     background-color: #232536;
@@ -101,13 +109,19 @@ nav ul li button {
   .brands i {
     margin-left: 10px;
   }
-  
+  .topimages{
+    display: flex;
+  }
   /* Media Query */
   @media screen and (max-width: 768px) {
     .navbar-brand img {
       width: 106px;
       height: 80px;
     }
+    .topimages{
+      flex-direction: column;
+    }
+    
     .heroimage h2 {
       font-weight: 500;
       font-size: 4vw;
@@ -116,7 +130,7 @@ nav ul li button {
       bottom: 5%;
       left: 5%;
       width: 70%;
-      top: 25%;
+      top: 38%;
     }
     .content{
         padding: 10px 15px;
@@ -128,11 +142,11 @@ nav ul li button {
         object-fit: contain;
         object-position: center;
     }
-    .heroimage2, .content .fourimages, .content .colors, .content img, .content p{
+    .heroimage, .content .fourimages, .content .colors, .content img, .content p,  .content .topimages img{
         flex-direction: column;
         padding: 5px;
     }
-    .content .colors, .content .fourimages, .content .topimages{
+    .content .colors, .content .fourimages, .content .topimages img{
         margin-bottom: 10px;
     }
    

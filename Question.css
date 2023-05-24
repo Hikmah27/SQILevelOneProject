@@ -36,6 +36,10 @@
   }
 
    /* Page11 Style */
+   .heroimage11 {
+    position: relative;
+  }
+
 .heroimage11 h1 {
   font-style: normal;
   font-weight: 700;
@@ -114,7 +118,7 @@
     font-weight: 500; 
     font-size: 6vw;
     width: 70%;
-    top: 25%;
+    top: 32%;
     text-align: center;
   }
   .content{

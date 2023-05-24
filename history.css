@@ -36,6 +36,10 @@
   }
   
     /* Page2 Body Style */
+    .heroimage2{
+      position: relative;
+    }
+    
 .heroimage2 h1 {
   font-style: normal;
   font-weight: 700;
@@ -113,7 +117,7 @@
     font-weight: 500;
     font-size: 6vw;
     width: 70%;
-    top: 25%;
+    top: 35%;
   }
   .content{
       padding: 10px 15px;

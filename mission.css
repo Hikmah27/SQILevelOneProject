@@ -36,13 +36,16 @@ nav ul li button {
 }
 
 /* Page10 Style */
+.heroimage10{
+  position: relative;
+}
 .heroimage10 h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 58px;
   color: #232536;
   position: absolute;
-  top: 400px;
+  top: 250px;
   justify-content: center;
   left: 80px;
   width: 70%;
@@ -161,11 +164,12 @@ nav ul li button {
     width: 106px;
     height: 80px;
   }
+
   .heroimage10 h1 {
     font-weight: 500;
     font-size: 6vw;
     width: 70%;
-    top: 25%;
+    top: 35%;
   }
   .content {
     padding: 10px 15px;

@@ -36,6 +36,10 @@
   }
   
   /* Page4 Body Style */
+  .heroimage4{
+    position: relative;
+  }
+  
 .heroimage4 h1 {
   font-style: normal;
   font-weight: 700;
@@ -45,7 +49,7 @@
   justify-content: center;
   left: 80px;
   width: 70%;
-  top: 60%;
+  top: 50%;
 }
 
   /* Footer style */
@@ -108,7 +112,7 @@
     font-weight: 500; 
     font-size: 6vw;
     width: 70%;
-    top: 20%;
+    top: 38%;
   }
   .content{
       padding: 10px 15px;

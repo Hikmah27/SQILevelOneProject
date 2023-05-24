@@ -36,6 +36,10 @@
   }
 
   /* Page9 Style */
+  .heroimage9{
+    position: relative;
+  }
+
 .heroimage9 h1 {
   font-style: normal;
   font-weight: 700;
@@ -144,7 +148,7 @@
     font-weight: 500; 
     font-size: 6vw;
     text-align: center;
-    top: 25%;
+    top: 32%;
   }
 
   .marklist9, .pictext9{

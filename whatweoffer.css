@@ -36,6 +36,10 @@
   }
   
   /* Page6 Body Style */
+  .heroimage6{
+    position: relative;
+  }
+
 .heroimage6 h1 {
   font-style: normal;
   font-weight: 700;
@@ -133,7 +137,7 @@
     font-weight: 500; 
     font-size: 6vw;
     width: 70%;
-    top: 20%;
+    top: 35%;
     left: 80px;
   }
   .content {
